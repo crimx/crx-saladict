@@ -232,7 +232,7 @@ export const actionHandlers: ActionHandlers<State, ActionCatalog> = {
       return state
     }
 
-    // hide panel on otehr pages and leave just quick search panel
+    // hide panel on other pages and leave just quick search panel
     return payload && state.config.qssaPageSel
       ? {
           ...state,

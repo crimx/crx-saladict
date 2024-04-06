@@ -12,7 +12,7 @@ import { of, Observable, OperatorFunction, from } from 'rxjs'
 import { MouseEvent } from 'react'
 
 /**
- * Resuable Observable logics
+ * Reusable Observable logics
  */
 
 /**

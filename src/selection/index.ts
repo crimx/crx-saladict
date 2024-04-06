@@ -45,7 +45,7 @@ if (!window.__SALADICT_SELECTION_LOADED__) {
   })
 
   /**
-   * Manualy emit selection
+   * Manually emit selection
    * Beware that this is run on every frame.
    */
   message.createStream('EMIT_SELECTION').subscribe(async () => {
