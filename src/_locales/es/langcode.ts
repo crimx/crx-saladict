@@ -1,4 +1,4 @@
-import en from '@opentranslate/languages/locales/es.json'
+import en from '@opentranslate/languages/locales/en.json'
 import { locale as _locale } from '../zh-CN/langcode'
 
 export const locale: typeof _locale = {

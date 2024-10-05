@@ -126,7 +126,7 @@ function withTouchMode(config: AppConfig) {
         rect.width === 0 &&
         rect.height === 0
       ) {
-        // Selection is made inside textarea with keyborad. Ignore.
+        // Selection is made inside textarea with keyboard. Ignore.
         return { self }
       }
 
@@ -144,7 +144,7 @@ function withTouchMode(config: AppConfig) {
     throttle(result => {
       // Firefox will fire an extra selectionchange event
       // when selection is made inside dict panel and
-      // continute search is triggered.
+      // continue search is triggered.
       // Need to skip this event otherwise the panel is
       // closed unexpectedly.
       if (isFirefox && result.self && result.word && result.word.text) {

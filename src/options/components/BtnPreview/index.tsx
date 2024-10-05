@@ -38,7 +38,7 @@ export const BtnPreview: FC = () => {
           icon={<PreviewIcon />}
           onClick={async e => {
             const { x, width } = e.currentTarget.getBoundingClientRect()
-            // panel will adjust the postion itself
+            // panel will adjust the position itself
             dispatch({ type: 'OPEN_PANEL', payload: { x: x + width, y: 80 } })
             dispatch({
               type: 'SEARCH_START',
